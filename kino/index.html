@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кінотеатр Бронювання Квитків</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Бронювання квитків у кінотеатр</h1>
+        <div>
+            <label for="date-picker">Оберіть дату:</label>
+            <input type="date" id="date-picker" min="">
+        </div>
+        <div>
+            <label for="time-picker">Оберіть час сеансу:</label>
+            <select id="time-picker">
+                <!-- Сеанси будуть додані динамічно -->
+            </select>
+        </div>
+        <div id="seats-container">
+            <!-- Місця будуть додані динамічно -->
+        </div>
+        <button id="reserve-button">Забронювати</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
